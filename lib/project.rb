@@ -9,6 +9,6 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    
+    backer.backed_projects << self # the object(instance) of my project(class)
   end
 end
