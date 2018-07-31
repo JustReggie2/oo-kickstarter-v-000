@@ -10,7 +10,8 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
-    project.backers << self # project is the object of my Project class. Accessing my @backer attribute for this object. Shoveling my backer object to the array i.e. self
+    project.backers << self # project is the object of my Project class. Accessing my @backer attribute for this object. 
+    # Shoveling my backer object to the array i.e. self
   end
 
 end
